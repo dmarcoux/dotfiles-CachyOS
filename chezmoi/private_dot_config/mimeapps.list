@@ -1,8 +1,4 @@
-[Added Associations]
-
 [Default Applications]
-application/xhtml+xml=chromium.desktop
-text/html=chromium.desktop
 application/javascript=nvim.desktop
 application/json=nvim.desktop
 application/pdf=org.gnome.Evince.desktop
@@ -14,8 +10,10 @@ application/x-desktop=nvim.desktop
 application/x-perl=nvim.desktop
 application/x-ruby=nvim.desktop
 application/x-shellscript=nvim.desktop
+application/x-terminal-emulator=foot.desktop
 application/x-yaml=nvim.desktop
 application/x-zerosize=nvim.desktop
+application/xhtml+xml=chromium.desktop
 application/xml=nvim.desktop
 application/yaml=nvim.desktop
 inode/x-empty=nvim.desktop
@@ -60,9 +58,6 @@ text/turtle=nvim.desktop
 text/ulpfec=nvim.desktop
 text/uri-list=nvim.desktop
 text/vcard=nvim.desktop
-text/vnd.DMClientScript=nvim.desktop
-text/vnd.IPTC.NITF=nvim.desktop
-text/vnd.IPTC.NewsML=nvim.desktop
 text/vnd.abc=nvim.desktop
 text/vnd.curl=nvim.desktop
 text/vnd.curl.dcurl=nvim.desktop
@@ -141,10 +136,9 @@ text/x-vcalendar=nvim.desktop
 text/x-vcard=nvim.desktop
 text/xml=nvim.desktop
 text/xml-external-parsed-entity=nvim.desktop
-x-scheme-handler/jetbrains=jetbrains-toolbox.desktop
 x-scheme-handler/chrome=chromium.desktop
 x-scheme-handler/http=chromium.desktop
 x-scheme-handler/https=chromium.desktop
+x-scheme-handler/jetbrains=jetbrains-toolbox.desktop
+x-scheme-handler/terminal=foot.desktop
 x-scheme-handler/unknown=chromium.desktop
-
-[Removed Associations]
