@@ -1,0 +1,8 @@
+--bind ctrl-a:select-all,ctrl-d:deselect-all,ctrl-t:toggle-all
+--bind 'ctrl-f:reload(command fd --hidden --type file --exclude .git --no-ignore-vcs),ctrl-g:reload(command fd --hidden --type file --exclude .git)'
+--min-height=100
+--reverse
+--color fg:#848484,bg:#ffffff,hl:#186daa:bold,fg+:#ffffff,bg+:#557301,hl+:#186daa:bold
+--color info:#876500,prompt:#876500,pointer:#ffffff,marker:#ffffff,spinner:#876500
+--no-separator
+--color bg:#ffffff,bg+:#ededed,fg:#636363,fg+:#555555,header:#186daa,hl:#186daa,hl+:#186daa,info:#876500,marker:#087767,pointer:#087767,prompt:#876500,spinner:#087767

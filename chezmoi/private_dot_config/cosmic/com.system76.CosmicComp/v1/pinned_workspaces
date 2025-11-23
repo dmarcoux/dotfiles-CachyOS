@@ -1,0 +1,77 @@
+[
+    (
+        output: (
+            name: "DVI-D-1",
+            edid: Some((
+                manufacturer: ('B', 'N', 'Q'),
+                product: 32561,
+                serial: Some(21573),
+                manufacture_week: 42,
+                manufacture_year: 2015,
+                model_year: None,
+            )),
+        ),
+        tiling_enabled: true,
+        id: Some("1bd1566"),
+    ),
+    (
+        output: (
+            name: "DVI-D-1",
+            edid: Some((
+                manufacturer: ('B', 'N', 'Q'),
+                product: 32561,
+                serial: Some(21573),
+                manufacture_week: 42,
+                manufacture_year: 2015,
+                model_year: None,
+            )),
+        ),
+        tiling_enabled: true,
+        id: Some("1ca6d7f"),
+    ),
+    (
+        output: (
+            name: "DVI-D-1",
+            edid: Some((
+                manufacturer: ('B', 'N', 'Q'),
+                product: 32561,
+                serial: Some(21573),
+                manufacture_week: 42,
+                manufacture_year: 2015,
+                model_year: None,
+            )),
+        ),
+        tiling_enabled: true,
+        id: Some("138a772"),
+    ),
+    (
+        output: (
+            name: "DVI-D-1",
+            edid: Some((
+                manufacturer: ('B', 'N', 'Q'),
+                product: 32561,
+                serial: Some(21573),
+                manufacture_week: 42,
+                manufacture_year: 2015,
+                model_year: None,
+            )),
+        ),
+        tiling_enabled: true,
+        id: Some("5f13e2"),
+    ),
+    (
+        output: (
+            name: "DVI-D-1",
+            edid: Some((
+                manufacturer: ('B', 'N', 'Q'),
+                product: 32561,
+                serial: Some(21573),
+                manufacture_week: 42,
+                manufacture_year: 2015,
+                model_year: None,
+            )),
+        ),
+        tiling_enabled: true,
+        id: Some("e30ab3"),
+    ),
+]
