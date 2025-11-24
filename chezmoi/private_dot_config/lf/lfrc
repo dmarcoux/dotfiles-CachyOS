@@ -17,10 +17,7 @@
 # $fs -> Selected file(s) separated with the value of `filesep` option as full path(s)
 # $fx -> `$fs` if multiple files selected, otherwise `$f`
 
-# TODO: I don't know why `open` cannot be called asynchronously... I only changed `&$OPENER` to `$$OPENER`.
-#       This wasn't necessary on NixOS or Ubuntu with the exact same terminal and lf configuration.
-#       I asked here... https://github.com/gokcehan/lf/issues/2274
-cmd open $$OPENER "$f"
+cmd open $xdg-open "$f"
 
 # Open file with a given command (use `$*` to pass all command arguments)
 cmd open_with $$* "$f"
