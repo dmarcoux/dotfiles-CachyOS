@@ -359,9 +359,13 @@ alias scwos='aws --profile scaleway-os'
 
 export RIPGREP_CONFIG_PATH="/home/dany/.config/ripgrep/config"
 
-##### Vim / Neovim
+##### Zed #####
 
-export EDITOR="nvim"
+export EDITOR='zeditor'
+
+alias zed='zeditor'
+
+##### Vim / Neovim
 
 alias vi='nvim'
 alias vim='nvim'

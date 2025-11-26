@@ -1,0 +1,66 @@
+// Zed settings - https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your custom settings, run `zed: open default settings` from the
+// command palette (Ctrl + Shift + p)
+{
+  // Automatically install the extensions listed below.
+  // Find the names of your currently installed extensions with `ls ~/.local/share/zed/extensions/installed`
+  "auto_install_extensions": {
+    "ruby": true,
+    "elixir": true,
+    "html": true,
+    "toml": true
+  },
+  // Automatically save edited buffers when focus changes (ex: from editor to terminal)
+  "autosave": "on_focus_change",
+  // The name of a font to use for rendering text in the editor
+  "buffer_font_family": "DejaVuSansM Nerd Font",
+  // The default font size for text in the editor
+  "buffer_font_size": 16,
+  // Automatically close buffer of a file when the file has been deleted
+  "close_on_file_delete": true,
+  // Use tree-sitter bracket queries to detect and colorize the brackets in the editor (also known as "rainbow brackets")
+  "colorize_brackets": true,
+  // Do not start a new line with a comment when a previous line is a comment as well
+  "extend_comment_on_newline": false,
+  // Do not format the current buffer before saving
+  "format_on_save": "off",
+  // Show whitespaces at boundaries only.
+  //
+  // For a whitespace to be on a boundary, any of the following conditions need to be met:
+  // - It is a tab
+  // - It is adjacent to an edge (start or end)
+  // - It is adjacent to a whitespace (left or right)
+  "show_whitespaces": "boundary",
+  // Do not show tabs / opened files
+  "tab_bar": {
+    "show": false
+  },
+  "telemetry": {
+    // Do not send anonymized usage data, such as what languages you're using Zed with
+    "metrics": false,
+    // Do not send debug-related data, such as crash reports
+    "diagnostics": false
+  },
+  "theme": {
+    // "system": Use the theme that corresponds to the system's appearance
+    "mode": "system",
+    "light": "One Light",
+    "dark": "One Dark"
+  },
+  // The name of a font to use for rendering text in the UI
+  // You can set this to ".SystemUIFont" to use the system font
+  "ui_font_family": "Zed Plex Sans",
+  // The default font size for text in the UI
+  "ui_font_size": 16,
+  // Use case-sensitive search if any of the search characters are uppercase
+  "use_smartcase_search": true,
+  // Minimal number of screen lines to keep above and below the cursor when moving vertically (if possible…)
+  "vertical_scroll_margin": 10,
+  "vim": {
+    // All actions will use the system clipboard
+    "use_system_clipboard": "always"
+  },
+  // Enable Vim mode
+  "vim_mode": true
+}
