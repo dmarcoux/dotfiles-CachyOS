@@ -1,10 +1,23 @@
 {
     (
         modifiers: [
+            Alt,
+        ],
+        key: "F4",
+    ): Disable,
+    (
+        modifiers: [
             Super,
         ],
-        key: "d",
-    ): System(Launcher),
+        key: "Escape",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Shift,
+        ],
+        key: "q",
+    ): Close,
     (
         modifiers: [
             Super,
@@ -18,17 +31,17 @@
     ): Disable,
     (
         modifiers: [
-            Alt,
-        ],
-        key: "F4",
-    ): Disable,
-    (
-        modifiers: [
             Super,
             Shift,
         ],
-        key: "q",
-    ): Close,
+        key: "c",
+    ): System(LockScreen),
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "d",
+    ): System(Launcher),
     (
         modifiers: [
             Super,
@@ -39,12 +52,12 @@
         modifiers: [
             Super,
         ],
-        key: "Return",
-    ): System(Terminal),
+        key: "q",
+    ): Disable,
     (
         modifiers: [
             Super,
         ],
-        key: "q",
-    ): Disable,
+        key: "Return",
+    ): System(Terminal),
 }
