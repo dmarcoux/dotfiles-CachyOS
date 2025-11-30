@@ -25,6 +25,18 @@
   "extend_comment_on_newline": false,
   // Do not format the current buffer before saving
   "format_on_save": "off",
+  // Language Server Protocols
+  "lsp": {
+    "tailwindcss-language-server": {
+      "settings": {
+        // Enable TailwindCSS LSP for HEEx and Elixir (for its ~H sigil)
+        "includeLanguages": {
+          "heex": "html",
+          "Elixir": "html"
+        }
+      }
+    }
+  },
   // Show whitespaces at boundaries only.
   //
   // For a whitespace to be on a boundary, any of the following conditions need to be met:
