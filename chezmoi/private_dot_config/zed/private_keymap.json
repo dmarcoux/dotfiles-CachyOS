@@ -26,7 +26,16 @@
       "g d": "editor::GoToDefinition",
       "g shift-d": "editor::GoToDeclaration",
       "g y": "editor::GoToTypeDefinition",
-      "g shift-i": "editor::GoToImplementation"
+      "g shift-i": "editor::GoToImplementation",
+      // Toggle terminal
+      "ctrl-/": "workspace::ToggleBottomDock"
+    }
+  },
+  {
+    "context": "Terminal",
+    "bindings": {
+      // Toggle terminal
+      "ctrl-/": "workspace::ToggleBottomDock"
     }
   }
 ]
