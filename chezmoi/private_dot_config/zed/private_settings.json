@@ -11,8 +11,11 @@
     "html": true,
     "toml": true
   },
-  // Automatically save edited buffers when focus changes (ex: from editor to terminal)
-  "autosave": "on_focus_change",
+  // Do not automatically save edited buffers when focus changes (ex.: from editor to terminal), window changes or after a given delay
+  // Why disable this? I enabled the setting to remove trailing whitespaces on save. I would otherwise have to manually fix this all the time. It's annoying!
+  //                   Since I often switch focus from Zed to another window (ex.: browser when referring to documentation), and it moves my cursor around
+  //                   while I might be typing in something. It's such a built-in habit to save all the time, I don't even think about it.
+  "autosave": "off",
   // The name of a font to use for rendering text in the editor
   "buffer_font_family": "DejaVuSansM Nerd Font",
   // The default font size for text in the editor
