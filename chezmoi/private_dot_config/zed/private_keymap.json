@@ -19,7 +19,7 @@
     }
   },
   {
-    // Key bindings here work in normal & visual mode
+    // Key bindings here work in normal, visual and operator modes, but outside the menu
     // See https://zed.dev/docs/vim
     "context": "VimControl && !menu",
     "bindings": {
@@ -30,7 +30,10 @@
       "g y": "editor::GoToTypeDefinition",
       "g shift-i": "editor::GoToImplementation",
       // Toggle terminal
-      "ctrl-/": "workspace::ToggleBottomDock"
+      "ctrl-/": "workspace::ToggleBottomDock",
+      // Move line(s) up/down with Ctrl + k/j
+      "ctrl-k": "editor::MoveLineUp",
+      "ctrl-j": "editor::MoveLineDown"
     }
   },
   {
