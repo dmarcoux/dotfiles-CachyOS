@@ -54,5 +54,18 @@
       "pageup": "editor::ContextMenuFirst",
       "pagedown": "editor::ContextMenuLast"
     }
+  },
+  {
+    "context": "!ContextEditor > (Editor && mode == full)",
+    "bindings": {
+      // Focus the project panel, then:
+      // - Create a file (with `%`)
+      // - Create a folder (with `d`)
+      // - etc.. see other keyboard shortcuts by right-clicking on a file/folder.
+      //
+      // Navigate the project with Vim keybindings.
+      // Focus back to the editor with Escape.
+      "ctrl-shift-e": "pane::RevealInProjectPanel"
+    }
   }
 ]
