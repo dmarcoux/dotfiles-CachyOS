@@ -1,41 +1,11 @@
 {
     (
         modifiers: [
-            Alt,
-        ],
-        key: "F4",
-    ): Disable,
-    (
-        modifiers: [
             Super,
-        ],
-        key: "Escape",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Shift,
-        ],
-        key: "q",
-    ): Close,
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "t",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-        ],
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Shift,
         ],
         key: "c",
-    ): System(LockScreen),
+        description: Some("Clipboard manager"),
+    ): Spawn("cclip list rowid,mime_type,preview | rofi -dmenu -i -delimiter \"$(printf \'\\t\')\" -display-columns 3 | awk -F \'\\t\' \'{ system(\"cclip get \" $1 \" | wl-copy -t \" $2) }\'"),
     (
         modifiers: [
             Super,
@@ -52,12 +22,49 @@
         modifiers: [
             Super,
         ],
-        key: "q",
+        key: "Escape",
     ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Shift,
+        ],
+        key: "q",
+    ): Close,
     (
         modifiers: [
             Super,
         ],
         key: "Return",
     ): System(Terminal),
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "t",
+    ): Disable,
+    (
+        modifiers: [
+            Alt,
+        ],
+        key: "F4",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Shift,
+        ],
+        key: "c",
+    ): System(LockScreen),
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "q",
+    ): Disable,
 }
