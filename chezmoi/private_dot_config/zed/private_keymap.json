@@ -15,7 +15,9 @@
     "bindings": {
       // Switch between one of the opened files, and pre-select the one which was previously opened
       "ctrl-n": ["tab_switcher::Toggle", { "select_last": true }],
-      "ctrl-j": null
+      "ctrl-j": null,
+      // Focus/Unfocus the outline panel
+      "ctrl-shift-b": "outline_panel::ToggleFocus"
     }
   },
   {
