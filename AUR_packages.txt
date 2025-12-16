@@ -1,0 +1,1 @@
+1password 1password-cli cclip cosmic-ext-calculator-git tlrc watchman-bin
