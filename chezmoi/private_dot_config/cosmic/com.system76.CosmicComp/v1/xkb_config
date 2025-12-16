@@ -3,7 +3,7 @@
     model: "",
     layout: "ca",
     variant: "multix",
-    options: Some("compose:ralt,lv3:ralt_switch"),
+    options: Some("compose:ralt,lv3:ralt_switch,nbsp:none"),
     repeat_delay: 600,
     repeat_rate: 25,
 )
