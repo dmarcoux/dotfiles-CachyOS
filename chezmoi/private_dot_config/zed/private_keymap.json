@@ -31,8 +31,10 @@
       "g shift-d": "editor::GoToDeclaration",
       "g y": "editor::GoToTypeDefinition",
       "g shift-i": "editor::GoToImplementation",
-      // Toggle terminal
-      "ctrl-/": "workspace::ToggleBottomDock",
+      // Focus terminal
+      "ctrl-/": "terminal_panel::ToggleFocus",
+      // Toggle terminal with Ctrl + Shift + /
+      "ctrl-\\": "workspace::ToggleBottomDock",
       // Move line(s) up/down with Ctrl + k/j
       "ctrl-k": "editor::MoveLineUp",
       "ctrl-j": "editor::MoveLineDown"
@@ -41,8 +43,10 @@
   {
     "context": "Terminal",
     "bindings": {
-      // Toggle terminal
-      "ctrl-/": "workspace::ToggleBottomDock"
+      // Focus terminal
+      "ctrl-/": "terminal_panel::ToggleFocus",
+      // Toggle terminal with Ctrl + Shift + /
+      "ctrl-\\": "workspace::ToggleBottomDock"
     }
   },
   {
@@ -68,6 +72,12 @@
       // Navigate the project with Vim keybindings.
       // Focus back to the editor with Escape.
       "ctrl-shift-e": "pane::RevealInProjectPanel"
+    }
+  },
+  {
+    "context": "vim_mode == literal",
+    "bindings": {
+      "ctrl-\\": null
     }
   }
 ]
