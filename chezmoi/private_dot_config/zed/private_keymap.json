@@ -67,7 +67,12 @@
       // Focus the project panel, then:
       // - Create a file (with `%`)
       // - Create a folder (with `d`)
+      // - Delete a file (Shift-d or Delete)
+      // - Rename a file (Shift-r)
       // - etc.. see other keyboard shortcuts by right-clicking on a file/folder.
+      //
+      // If you are currently editing a file, and you happen to search for it in the project panel, then focusing the project panel will reveal it.
+      // This is useful when wanting to rename/delete the file.
       //
       // Navigate the project with Vim keybindings.
       // Focus back to the editor with Escape.
