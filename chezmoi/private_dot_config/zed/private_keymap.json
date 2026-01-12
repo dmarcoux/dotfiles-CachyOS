@@ -50,6 +50,16 @@
     }
   },
   {
+    "context": "Editor",
+    "bindings": {
+      // Multiple cursors
+      //
+      // Add/Remove a cursor up or down
+      "alt-shift-k": ["editor::AddSelectionAbove", {"skip_soft_wrap":true}],
+      "alt-shift-j": ["editor::AddSelectionBelow", {"skip_soft_wrap":true}]
+    }
+  },
+  {
     "context": "Editor && (showing_code_actions || showing_completions)",
     "bindings": {
       "ctrl-p": null,
