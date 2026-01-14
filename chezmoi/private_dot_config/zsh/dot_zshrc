@@ -100,8 +100,8 @@ setopt HIST_REDUCE_BLANKS
 ##### mise #####
 
 # https://geekingfrog.com/blog/post/mise-erlang
-# When installing Erlang via Mise, it fixes the warning `OTP compiled without EEP48 documentation chunks`.
-export KERL_CONFIGURE_OPTIONS="--without-javac --with-odbc=/var/lib/pacman/local/unixodbc-$(pacman -Q unixodbc | cut -d' ' -f2)"
+# When installing Erlang via Mise, it fixes the warning `OTP compiled without EEP48 documentation chunks`. WIP The wxWidgets also work now.
+export KERL_CONFIGURE_OPTIONS="--enable-wx --with-wx --enable-webview --without-javac --with-wx-config=/usr/bin/wx-config --with-odbc=/var/lib/pacman/local/unixodbc-$(pacman -Q unixodbc | cut -d' ' -f2)"
 export KERL_BUILD_DOCS=yes
 
 if [[ $TERM != "dumb" ]]; then
