@@ -11,17 +11,6 @@
 	fileMode = true
 	pager = "delta"
 
-# TODO: Either understand why this breaks authentification or remove the commented lines
-#[credential "https://gist.github.com"]
-#	helper = "gh auth git-credential"
-#
-#[credential "https://github.com"]
-#	helper = "gh auth git-credential"
-
-# TODO: Enable this once I replaced stylix
-#[delta]
-#	syntax-theme = "base16-stylix" # See available themes with `delta --list-syntax-themes`
-
 [diff]
 	algorithm = "histogram"
 	compactionHeuristic = true
