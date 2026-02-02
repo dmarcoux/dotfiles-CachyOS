@@ -59,12 +59,6 @@ I only mention what isn't obvious. Same for differences from the standard setup.
      sudo gpasswd -a dany docker
    ```
 
-5. Change default shell to `zsh`, then log out (and back in) for this to take effect.
-
-   ```bash
-   chsh --shell /usr/bin/zsh
-   ```
-
 ## TODOs for Setup
 
 - [How to assign applications to launch on a specific workspace?](https://github.com/pop-os/cosmic-epoch/discussions/1129)
