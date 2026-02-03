@@ -1,4 +1,4 @@
-alias gh='GH_TOKEN=(op read "op://Personal/github.com/CLI Access Token") gh'
+alias gh='GH_TOKEN=(op read "op://Personal/github.com/CLI Access Token") command gh'
 
 # For the current branch, open the web browser to create a pull request on GitHub
 abbr ghpr "gh pr create --web"
