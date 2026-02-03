@@ -34,7 +34,7 @@ abbr gdis "git diff --staged"
 abbr gf "git fetch --tags"
 abbr gfu "git fetch --tags upstream"
 # Output: abbreviated_commit_hash (%h) | commit_message (%s) | author_name (%an, in yellow) | commit_date_relative (%cr, in green)
-abbr glo 'git log --pretty=format:"%h %C(bold)|%C(reset) %s %C(bold)|%C(reset) %C(yellow)%an%C(reset) %C(bold)|%C(reset) %C(green)%cr%C(reset)" --max-count=100'
+alias glo='git log --pretty=format:"%h %C(bold)|%C(reset) %s %C(bold)|%C(reset) %C(yellow)%an%C(reset) %C(bold)|%C(reset) %C(green)%cr%C(reset)" --max-count=100'
 # Copy a string from the output of the glo alias (a commit hash for example)
 alias gloy='glo | yank'
 abbr gmer "git merge"
