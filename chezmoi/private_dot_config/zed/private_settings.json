@@ -9,7 +9,9 @@
     "ruby": true,
     "elixir": true,
     "html": true,
-    "toml": true
+    "toml": true,
+    "gdscript": true,
+    "gdscript-snippets": true
   },
   // Do not automatically save edited buffers when focus changes (ex.: from editor to terminal), window changes or after a given delay
   // Why disable this? I enabled the setting to remove trailing whitespaces on save. I would otherwise have to manually fix this all the time. It's annoying!
