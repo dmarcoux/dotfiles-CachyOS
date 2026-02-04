@@ -37,7 +37,12 @@
       "ctrl-\\": "workspace::ToggleBottomDock",
       // Move line(s) up/down with Ctrl + k/j
       "ctrl-k": "editor::MoveLineUp",
-      "ctrl-j": "editor::MoveLineDown"
+      "ctrl-j": "editor::MoveLineDown",
+      // Multiple cursors
+      //
+      // Select the next/previous occurrence of the current selection with g + l (next) / g + Shift + l (previous)
+      "g l": "vim::SelectNext",
+      "g shift-l": "vim::SelectPrevious"
     }
   },
   {
