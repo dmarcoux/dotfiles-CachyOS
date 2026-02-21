@@ -52,8 +52,11 @@ set -gx RIPGREP_CONFIG_PATH $XDG_CONFIG_HOME/ripgrep/config
 
 ##### Zed #####
 
-set -gx EDITOR zeditor
 abbr zed zeditor
+
+##### Neovim #####
+
+set -gx EDITOR nvim
 
 ##### Docker / Podman #####
 

@@ -5,8 +5,7 @@
 	gpgsign = true
 
 [core]
-	# zeditor is Zed
-	editor = "zeditor --wait"
+	editor = "nvim"
 	excludesFile = "/home/dany/.config/git/ignore"
 	fileMode = true
 	pager = "delta"
