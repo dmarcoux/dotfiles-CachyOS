@@ -57,6 +57,7 @@ abbr zed zeditor
 ##### Neovim #####
 
 set -gx EDITOR nvim
+abbr vim nvim
 
 ##### Docker / Podman #####
 
