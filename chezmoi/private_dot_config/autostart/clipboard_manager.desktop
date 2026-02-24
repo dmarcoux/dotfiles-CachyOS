@@ -1,7 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Clipboard Manager
-# Save entries only if they are 2+ bytes
-Exec=/usr/bin/cclipd -s 2
-Comment=cclipd listens for clipboard changes
-NoDisplay=true

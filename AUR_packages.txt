@@ -1,1 +1,1 @@
-1password 1password-cli aseprite cclip jetbrains-toolbox tlrc
+1password 1password-cli aseprite jetbrains-toolbox tlrc
