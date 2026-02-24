@@ -63,13 +63,19 @@ I only mention what isn't obvious. Same for differences from the standard setup.
      sudo gpasswd -a dany docker
    ```
 
-5. Clone and use dotfiles:
+5. Enable MullvadVPN daemon.
+
+   ```bash
+   sudo systemctl enable --now mullvad-daemon.service
+   ```
+
+6. Clone and use dotfiles:
 
    ```bash
    chezmoi init git@github.com:dmarcoux/dotfiles-CachyOS.git --apply
    ```
 
-6. Set fish as the default shell:
+7. Set fish as the default shell:
 
    ```bash
    chsh --shell /usr/bin/fish
