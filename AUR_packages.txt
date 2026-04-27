@@ -1,1 +1,1 @@
-1password 1password-cli aseprite dotpeek gdsdecomp-bin jetbrains-toolbox tlrc
+1password 1password-cli aseprite chezmoi_modify_manager dotpeek gdsdecomp-bin jetbrains-toolbox splix stardrop-bin tlrc
